@@ -27,7 +27,7 @@ class Stream extends Component {
           {
             user ?
               <div>{user.username}</div> :
-              <button onClick={onAuth} type="button">Login</button>
+              <button onClick={onAuth} type="button">Login to SoundCloud</button>
           }
         </div>
         <br/>
